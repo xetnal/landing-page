@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Roboto-ThinItalic";
+    src        : url(./fonts/Roboto/Roboto-ThinItalic.ttf) format("truetype");
+}
+
+body {
+    font-family   : Roboto, Monaco, sans-serif;
+    display       : flex;
+    flex-direction: column;
+    margin        : 0;
+
+}
+
+ul {
+    list-style-type: none;
+    display        : flex;
+    font-size      : 18px;
+    gap            : 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size  : 48px;
+
+}
+
+.logos {
+    display: flex;
+}
+
+.tibiacover {
+    height: 250px;
+    width : 400px;
+}
+
+.super-header {
+
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+
+}
+
+.logo {
+    width : 50px;
+    height: auto;
+}
+
+.navbar {
+    width           : 100%;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-around;
+    background-color: #384e6b;
+    color           : white;
+
+}
+
+.top {
+    display         : flex;
+    background-color: #384e6b;
+    justify-content : space-around;
+    align-items     : center;
+    height          : 300px;
+}
+
+.top-text {
+    background-color: #384e6b;
+    color           : white;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : flex-start;
+    width           : 300px;
+
+}
+
+.top-text button {
+    width : 100px;
+    height: 30px;
+    background-color: #3882f6;
+    border-radius   : 5px;
+    color: white;
+    font-family    : Roboto, Monaco, sans-serif;
+    border: 2px white solid;
+
+}
+
+
+.information {
+
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+    padding-bottom : 50px;
+
+
+}
+
+.information>h3 {
+
+    width     : 100%;
+    text-align: center;
+    padding   : 50px 0;
+    margin    : 0;
+}
+
+.infobox {
+    display: flex;
+
+}
+
+.infobox img {
+    border       : 5px #3882f6 solid;
+    border-radius: 5px;
+}
+
+.infobox figure {
+    text-align: center;
+}
+
+.infotitle {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+
+}
+
+.footer {
+    background-color: #384e6b;
+    color           : white;
+    display         : flex;
+    justify-content : center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : center;
+
+    font-size  : 28px;
+    align-items: center;
+    padding    : 6rem 25%;
+
+}
+
+.quote-content {
+    font-family   : Roboto-ThinItalic;
+    display       : flex;
+    flex-direction: column;
+
+    text-align: justify;
+}
+
+.quote-content>div {
+    display        : flex;
+    justify-content: flex-end;
+    font-family    : Roboto, Monaco, sans-serif;
+    font-weight    : 500;
+    font-size      : 18px;
+    line-height    : 4;
+
+}
+
+.action {
+    display        : flex;
+    justify-content: center;
+    color          : white;
+    padding        : 50px 0;
+
+
+
+}
+
+.action-content {
+    background-color: #3882f6;
+    padding         : 3rem 6rem;
+    border-radius   : 5px;
+    display         : inline-flex;
+    gap             : 6rem;
+
+
+}
+
+.action-content>div {
+    display       : flex;
+    width         : 80%;
+    flex-direction: column;
+}
+
+.action-content>div>* {
+    margin: 0;
+}
+
+.action-content>button {
+    display         : flex;
+    align-self      : center;
+    align-items     : center;
+    justify-content : center;
+    background-color: #3882f6;
+    border-radius   : 5px;
+    border          : 2px white solid;
+    color           : white;
+    font-weight     : bold;
+}
